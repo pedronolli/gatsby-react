@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Star Wars - Blog`,
+    title: `Pedro Nolli`,
     description: `This is development blog to study how to work with gatsby`,
-    author: `@pedronolli`,
+    position: `Gatsby | React | Java | C#`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
