@@ -1,11 +1,12 @@
-import React from "react"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import React from 'react'
+import Layout from '../components/layout'
+import SEO from '../components/seo'
+import PostItem from '../components/PostItem'
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Star Wars - Blog</h1>
+    <PostItem />
   </Layout>
 )
 

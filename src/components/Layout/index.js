@@ -10,6 +10,7 @@ import PropTypes from "prop-types"
 import Sidebar from '../Sidebar'
 import * as S from './styled'
 import GlobalStyles from '../../styles/global'
+import Menubar from '../MenuBar'
 
 
 const Layout = ({ children }) => {
@@ -17,7 +18,8 @@ const Layout = ({ children }) => {
         <S.LayoutWrapper>
           <GlobalStyles />
           <Sidebar />
-        <S.LayoutMain>{children}</S.LayoutMain>
+            <S.LayoutMain>{children}</S.LayoutMain>
+          <Menubar />
         </S.LayoutWrapper>
   )
 }
